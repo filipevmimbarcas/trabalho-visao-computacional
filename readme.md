@@ -4,7 +4,7 @@ Projeto criado para disciplina Fundamentos de Inteligência Artificial
 
 ## Objetivo 
 
-Monitorar vagas para carga em um caminhão
+Monitorar vagas de carga em um caminhão
 
 ![estacionamento](carga.png)
 
