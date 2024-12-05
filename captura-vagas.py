@@ -1,9 +1,9 @@
 import cv2 
 import pickle
 
-img = cv2.imread('estacionamento.png')
+img = cv2.imread('carga.png')
 
-numero_de_vagas = 69
+numero_de_vagas = 9
 
 vagas = []
 

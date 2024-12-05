@@ -11,7 +11,7 @@ with open('vagas.pkl','rb') as arquivo:
 
 
 
-video = cv2.VideoCapture('video.mp4')
+video = cv2.VideoCapture('video-carga.mp4')
 
 while True:
     check, img = video.read()
@@ -29,14 +29,14 @@ while True:
         contador = cv2.countNonZero(vaga)
         cv2.putText(img,str(contador),(x,y+h-10),cv2.FONT_HERSHEY_SIMPLEX,0.5,(255,255,255),1)
 
-        if contador < 900:
+        if contador < 1500:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
             vagas_livres = vagas_livres + 1
         else:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
         
         cv2.rectangle(img,(90,0),(415,60),(0,255,0),-1)
-        cv2.putText(img, f'Livre: {vagas_livres}/69 ',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1.5,(255.255,255),5)
+        cv2.putText(img, f'Livre: {vagas_livres}/9 ',(95,45),cv2.FONT_HERSHEY_SIMPLEX,1.5,(255.255,255),5)
 
 
     cv2.imshow('Video', img)

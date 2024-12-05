@@ -1,11 +1,12 @@
-### Projeto de Visão Computacional
-Projeto criado para disciplina Fundamentos de Inteligência Artificial (FIA) - Graduação. Prof. Pablo De Chiaro
+# Projeto de Visão Computacional
+
+Projeto criado para disciplina Fundamentos de Inteligência Artificial
 
 ## Objetivo 
 
-Monitorar vagas de estacionamento em um ambiente real
+Monitorar vagas para carga em um caminhão
 
-![estacionamento](estacionamento.png)
+![estacionamento](carga.png)
 
 ## Configuração do Ambiente Virtual
 - Passos para criar e ativar um ambiente virtual:
@@ -41,4 +42,4 @@ python main.py
 
 ### Resultado
 
-![Vagas livres](vagas-livres.png)
+![Vagas livres](img-redme.png)
